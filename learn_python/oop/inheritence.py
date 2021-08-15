@@ -10,7 +10,7 @@ class Car(Vehicle):
         print('I am Car.')
 
     def specific_usage(self):
-        self.general_usage();
+        self.general_usage()
         print('Specific usage: Family Vacation.')
 
 
@@ -21,7 +21,7 @@ class MotorCycle(Vehicle):
         print('I am Motorcycle.')
 
     def specific_usage(self):
-        self.general_usage();
+        self.general_usage()
         print('Specific usage: Racing.')
 
 
